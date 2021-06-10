@@ -11,6 +11,7 @@ export class DashboardComponent implements OnInit {
 
    //@MartinhoMCM
   heroes:Hero[]=[];
+  herois:Hero[]=[];
 
   constructor(private heroService:HeroService) { }
 
