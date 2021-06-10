@@ -12,7 +12,7 @@ export class DashboardComponent implements OnInit {
    //@MartinhoMCM
   heroes:Hero[]=[];
   herois:Hero[]=[];
-  dash:Hero[]=[];
+ 
 
   constructor(private heroService:HeroService) { }
 
