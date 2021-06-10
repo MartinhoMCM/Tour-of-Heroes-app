@@ -9,6 +9,7 @@ import {Hero} from '../hero'
 })
 export class DashboardComponent implements OnInit {
 
+   //@MartinhoMCM
   heroes:Hero[]=[];
 
   constructor(private heroService:HeroService) { }
